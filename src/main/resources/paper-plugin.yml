@@ -1,0 +1,7 @@
+name: LavaBin
+version: '0.9'
+main: org.neimeyer.lavaBin.LavaBin
+api-version: '1.21'
+authors: [ MNeimeyer ]
+description: A PaperMC Plugin to allow hoppers to insert into Lava filled Cauldrons.
+website: https://github.com/mneimeyer/LavaBin
