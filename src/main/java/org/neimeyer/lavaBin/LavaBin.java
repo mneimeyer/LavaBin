@@ -6,12 +6,13 @@ public final class LavaBin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getLogger().info("LavaBin enabled, scheduling hopper‐check task…");
+        // run hopper check every tick
+        new HopperTask(this).runTaskTimer(this, 1, 1);
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("LavaBin disabled");
     }
 }

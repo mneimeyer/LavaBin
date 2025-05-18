@@ -1,0 +1,6 @@
+name: LavaBin
+version: '1.0'
+main: org.neimeyer.lavaBin.LavaBin
+api-version: '1.21'
+description: Allows hoppers to insert items into full lava cauldrons to delete the item.
+author: MNeimeyer
